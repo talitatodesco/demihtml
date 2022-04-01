@@ -1,0 +1,304 @@
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 { background-image: url("../img/wallpapperdemi1.jpg"); }
+.img2 { background-image: url("../img/deha5yk-730c65d3-4f8d-4b9f-8c46-bd2788dfc519.jpg"); }
+.img3 { background-image: url("../img/demi-lovato-2021-melon-cake-wallpaper.jpg") }
+.img4 { background-image: url("../img/wallpapersden.com_demi-lovato-2021_1920x1080.jpg"); }
+
+
+.bg-text { 
+  background-color: rgba(0,0,0, 0.4);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 500px;
+  padding: 50px;
+  text-align: center;
+}
+.Title{
+  
+  text-align: center;
+  font-size: 3em;
+  padding-top: 1em;
+  font:  "Lato", sans-serif;;
+  margin: 0;
+
+}
+.Title2{
+  
+  text-align: center;
+  font-size: 3em;
+  padding-top: 1em;
+  font:  "Lato", sans-serif;;
+  margin: 0;
+
+}
+
+h3{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #000;
+  text-align: center;
+}
+
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(245, 245, 237);
+  }
+
+
+  .parallax {
+    background-image: url('../img/163639.jpg');
+    height: 100%;
+    top: 10px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  }
+  .parallax2 {
+    
+    background-image: url('../img/demi-lovato-in-here-we-go-again-wallpaper-preview.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax3 {
+    
+    background-image: url('../img/wallpaunbroken.webp');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax4 {
+    
+    background-image: url('../img/wallpademi.webp');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax5 {
+    
+    background-image: url('../img/wallpaconfident.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax6 {
+    
+    background-image: url('../img/wallpatellme.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax7 {
+    
+    background-image: url('../img/wallpadancing.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax8 {
+    
+    background-image: url('../img/deha5yk-730c65d3-4f8d-4b9f-8c46-bd2788dfc519.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text { 
+    background-color: rgba(0,0,0, 0.4);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position:absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+  }
+  .text2 { 
+    background-color: rgba(0,0,0, 0.4);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position:absolute;
+    display: block;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+  }
+  .text3 { 
+    background-color: rgba(0,0,0, 0.4);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position:absolute;
+    display: block;
+    top: 345%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+  }
+  .text4 { 
+    background-color: rgba(0,0,0, 0.4);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position:absolute;
+    display: block;
+    top: 490%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+  }
+  .text5 { 
+    background-color: rgba(0,0,0, 0.4);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position:absolute;
+    display: block;
+    top:635%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+  }
+  .text6 { 
+    background-color: rgba(0,0,0, 0.4);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position:absolute;
+    display: block;
+    top: 780%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 600px;
+    padding: 50px;
+    text-align: center;
+  }
+  .text7 { 
+    background-color: rgba(0,0,0, 0.4);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position:absolute;
+    display: block;
+    top: 925%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 800px;
+    padding: 50px;
+    text-align: center;
+  }
+  .demi1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .demi1 img {
+    margin-top: 12px;
+  }
+  
+  /* Clear floats after the columns */
+  .demi:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
