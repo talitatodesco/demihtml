@@ -295,8 +295,52 @@ ul {
     margin-top: 12px;
   }
   
-  /* Clear floats after the columns */
   .demi:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .sobre {
+    font-family: Arial;
+    padding: 20px;
+    background: #dcb9f3;
+  }
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+  }
+  .esquerda {   
+    float: left;
+    width: 75%;
+  }
+  .direita {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  .smileimg img {
+    background-color: #aaa;
+    width: 100%;
+    padding: 2px;
+    height: 280px;
+  }
+  section h2{
+  text-align: left;
+  font-size: 30px;
+  padding-top: 1em;
+  font:  "Lato", sans-serif;;
+  margin: 0;
+  }
+  .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+     
+  }
+  .texte:after {
     content: "";
     display: table;
     clear: both;
